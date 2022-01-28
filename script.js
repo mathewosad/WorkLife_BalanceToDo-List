@@ -1,7 +1,7 @@
 // Dom elements
-var timeDisplayEl = $('#currentDay');
 // set time and date 
 // time and date 
+var timeDisplayEl = $('#currentDay');
 function displayTime() {
 var rightNow = moment().format('dddd MMM Do, YYYY [at] hh:mm:ss a');
 timeDisplayEl.text(rightNow);
@@ -33,3 +33,10 @@ $(".saveBtn").on("click", function() {
         localStorage.setItem(id_key,$(this).val());
     });
 });
+function changeColor(hour) {
+    rightNow = moment().format('k');
+    if(hour < rightNow) {
+        hour.children("textarea").addClass('past');
+    }
+}
+setInterval(displayTime, 1000);

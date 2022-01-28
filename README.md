@@ -25,7 +25,7 @@ Enjoy
 
 ### Deployment: 
 
-<!-- *I Deployed a live URL on github  -->
+<!-- *I Deployed a live URL on github  -->  https://mathewosad.github.io/WorkLife_BalanceToDo-List/
 
 *My Application loads with no errors
 
