@@ -25,7 +25,7 @@ Enjoy
 
 ### Deployment: 
 
-*I Deployed a live URL on github
+<!-- *I Deployed a live URL on github  -->
 
 *My Application loads with no errors
 
@@ -46,6 +46,10 @@ Enjoy
 * My Repository contains multiple descriptive commit messages
 
 * My Repository contains quality README file with description, screenshot, and link to deployed application
+
+# Screenshot
+
+![](screenshot/WorkLife.JPG)
 
 
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
